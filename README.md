@@ -2,8 +2,6 @@
 
 Questa repository contiene una collezione di task relativi ai big data, implementati usando Google Colab.
 
----
-
 ## Come Eseguire i Task
 
 Per eseguire i task all'interno del notebook `2025_BIGDATA_DataPirates.ipynb`, il metodo più semplice e consigliato è utilizzare **Google Colab**.
@@ -14,8 +12,6 @@ Per eseguire i task all'interno del notebook `2025_BIGDATA_DataPirates.ipynb`, i
     * Carica il file `2025_BIGDATA_DataPirates.ipynb` nel tuo Google Drive.
     * Una volta caricato, clicca con il tasto destro sul file in Google Drive e seleziona "Apri con" > "Google Colaboratory".
     * Potrai quindi eseguire tutte le celle e interagire con i task direttamente nel tuo browser.
-
----
 
 ## Altri Modi per Eseguire File `.ipynb`
 
