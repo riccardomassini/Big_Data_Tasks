@@ -1,8 +1,0 @@
-**TASK2b: A partire dai dataset visti per l’es. ProduttoreA e
-ProduttoreB di smartphone calcolare Media e Dev. Standard (come da esempio Excel) usando la libreria Python numpy e graficare la distribuzione dei dati usando la libreria Python matplotlib**
-
-Questo script riutilizza i dati analizzati nella task02 dove venivano descritte le distribuzione normali e relative funzioni di densità di due produttori di smartphone.
-Vengono calcolate la media e la deviazione standard dei valori in esame tramite i metodi "mean" e "std" presenti nella libreria numpy.
-Per la visualizzazione della distribuzione era prima necessario definire la funzione di densità mediante il metodo "stats.norm.pdf" della libreria "scipy.stats" che prende come parametri i dati in oggetto, la media e la deviazione stardard di tali valori.
-Infine grazie alla libreria "matplotlib.pyplot", vengono creati e poi mostrati i grafici di queste due distribuzioni.
-Si può notare una differenza sostanziale tra i grafici delle due funzioni, infatti il produttore A mostra una curva a campana ampia e questo indica che i valori sono distribuiti su un ampio intervallo, il valore tipico di produzione è ben distribuito, con alcuni prodotti migliori e altri peggiori. Essendoci anche una deviazione standard alta, poichè la curva è larga, mostra una grande differenza tra i prodotti, alcuni molto buoni e altri di qualità inferiore. Al contrario, il produttore B presenta una distribuzione molto più concentrata attorno a un unico valore, con una curva stretta e una deviazione standard molto bassa. Questo indica che i prodotti di questo produttore hanno una qualità più uniforme e costante, con poche variazioni tra un'unità e l'altra.
